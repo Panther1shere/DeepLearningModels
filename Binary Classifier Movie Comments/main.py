@@ -24,9 +24,8 @@ def drawTrainingPlot(history, epochs):
     plt.xticks(epochs)
     plt.ylabel("Loss")
     plt.legend()
-    plt.show()
     plt.savefig("loss.png", dpi=300)
-
+    plt.show()
 
 
 
